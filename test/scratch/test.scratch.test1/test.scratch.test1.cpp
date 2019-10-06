@@ -18,12 +18,6 @@
  * ////////////////////////////////////////////////////////////////////// */
 
 
-#define XCONTRACT_ENFORCING_UNEXPECTED_CONDITION
-#define XCONTRACT_ENFORCING_PRECONDITION_LOGIC_0
-
-#define XCONTRACT_VERIFY_CONDITION_AT_RUNTIME
-
-
 /* xContract Header Files */
 #include <xcontract/xcontract.h>
 
