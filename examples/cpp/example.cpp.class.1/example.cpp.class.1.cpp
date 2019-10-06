@@ -13,7 +13,7 @@ public: /// Member Types
     typedef char        char_type;
 
 public: /// Construction
-    explicit string(char const* s)
+    explicit string(char const* s);
              string(char const* s, size_t len);
             ~string() throw ();
 
