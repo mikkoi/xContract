@@ -6,12 +6,13 @@
 
 #include <xcontract/xcontract.h>
 
-int function(int argc, char** argv)
-(
+int main(int argc, char** argv)
+{
     if(0 == argc)
     {
         XCONTRACT_ENFORCE_UNEXPECTED_CONDITION("this should never happen");
     }
 
     return 0;
-)
+}
+
